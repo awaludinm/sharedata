@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twitter/bootstrap": "^3.3",
+        "enyo/dropzone": "^4.3",
+        "codeigniter/framework": "^3.1"
+    }
+}
