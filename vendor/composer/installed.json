@@ -1,0 +1,128 @@
+[
+    {
+        "name": "twitter/bootstrap",
+        "version": "v3.3.7",
+        "version_normalized": "3.3.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twbs/bootstrap.git",
+            "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+            "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+            "shasum": ""
+        },
+        "replace": {
+            "twitter/bootstrap": "self.version"
+        },
+        "time": "2016-07-25 15:51:55",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jacob Thornton",
+                "email": "jacobthornton@gmail.com"
+            },
+            {
+                "name": "Mark Otto",
+                "email": "markdotto@gmail.com"
+            }
+        ],
+        "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+        "homepage": "http://getbootstrap.com",
+        "keywords": [
+            "JS",
+            "css",
+            "framework",
+            "front-end",
+            "less",
+            "mobile-first",
+            "responsive",
+            "web"
+        ]
+    },
+    {
+        "name": "enyo/dropzone",
+        "version": "v4.3.0",
+        "version_normalized": "4.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/enyo/dropzone.git",
+            "reference": "d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/enyo/dropzone/zipball/d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e",
+            "reference": "d8ef7a82e6ab5447c1f2d9512c8e1bfd4de5ac9e",
+            "shasum": ""
+        },
+        "time": "2016-02-14 04:19:41",
+        "type": "library",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matias Meno",
+                "email": "m@tias.me",
+                "homepage": "http://www.matiasmeno.com"
+            }
+        ],
+        "description": "Handles drag and drop of files for you.",
+        "homepage": "http://www.dropzonejs.com",
+        "keywords": [
+            "drag and drop",
+            "dragndrop",
+            "file upload",
+            "upload"
+        ]
+    },
+    {
+        "name": "codeigniter/framework",
+        "version": "3.1.4",
+        "version_normalized": "3.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/bcit-ci/CodeIgniter.git",
+            "reference": "873608df8be83420474e3cf9fc749a8ed12a6c09"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/bcit-ci/CodeIgniter/zipball/873608df8be83420474e3cf9fc749a8ed12a6c09",
+            "reference": "873608df8be83420474e3cf9fc749a8ed12a6c09",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.2.4"
+        },
+        "require-dev": {
+            "mikey179/vfsstream": "1.1.*",
+            "phpunit/phpunit": "4.* || 5.*"
+        },
+        "suggest": {
+            "paragonie/random_compat": "Provides better randomness in PHP 5.x"
+        },
+        "time": "2017-03-20 15:51:08",
+        "type": "project",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "The CodeIgniter framework",
+        "homepage": "https://codeigniter.com"
+    }
+]
